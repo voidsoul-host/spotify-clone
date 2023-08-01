@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style2.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Spotify Clone</title>
+</head>
+
+<body>
+    <main>
+        <div class="container">
+            <div class="sidebar">
+                <img id="logoimg" src="./assets/Spotify logo.png" alt="Spotify-Logo">
+                <div class="topicon sidedivs">
+                    <div class="linkflex">
+                        <img src="./assets/fi-ss-home.svg" alt="Home">
+                        <a href="#">Home</a>
+                    </div>
+                    <div class="linkflex">
+                        <img src="./assets/fi-rs-search.svg" alt="Search">
+                        <a href="#">Search</a>
+                    </div>
+                    <div class="linkflex">
+                        <img src="./assets/library.svg" alt="Library">
+                        <a href="#">Library</a>
+                    </div>
+                </div>
+                <div class="album sidedivs" id="album-playlist">
+                    <p>PLAYLISTS</p>
+                    <div class="linkflex">
+                        <!-- <img src="./assets/plus.png" alt="Home"> -->
+                        <img src="./spotify-icons-imgs-main/spotify-icons-imgs-main/Icons/plus.png" alt="">
+                        <a href="#">Create Playlist</a>
+                    </div>
+                    <div class="linkflex" x>
+                        <img src="./spotify-icons-imgs-main/spotify-icons-imgs-main/Icons/purpleheart.png" alt="">
+                        <a href="#">Liked Songs</a>
+                    </div>
+                    <div class="linkflex" x>
+                        <img src="./spotify-icons-imgs-main/spotify-icons-imgs-main/Icons/hotspot.png" alt="">
+                        <a href="#">Liked Songs</a>
+                    </div>
+                </div>
+                <img id="albumart-playlist" src="./spotify-icons-imgs-main/spotify-icons-imgs-main/Icons/imgs/album art.png" alt="AlbumArt Pic">
+            </div>
+            <div class="mainarea-playlist bg.ldark">
+                    <div class="top-one">
+                        <div class="genre-img">
+                            <img src="./spotify-icons-imgs-main/spotify-icons-imgs-main/Icons/imgs/pop-rn.png" alt="Genre Playlist Image">
+                        </div>
+                        <div class="genre-text">
+                            <p>PLAYLIST</p>
+                            <H1>Pop Right Now</H1>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iste, ratione.</p>
+                            <div class="genre-foot">
+                                <div class="spoti">Spotify</div>
+                                <svg class="genre-short-text" xmlns="http://www.w3.org/2000/svg" width="4" height="4" viewBox="0 0 4 4" fill="none">
+                                    <circle opacity="0.7" cx="2" cy="2" r="2" fill="white"/>
+                                  </svg>
+                                  <div class="likes genre-short-text">860,305 likes</div>
+                                  <svg class="genre-short-text" xmlns="http://www.w3.org/2000/svg" width="4" height="4" viewBox="0 0 4 4" fill="none">
+                                    <circle opacity="0.7" cx="2" cy="2" r="2" fill="white"/>
+                                  </svg>
+                                  <div class="genre-info genre-short-text">100 songs, 5 hr 5 min</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="top-second">
+                        <div class="btns">
+                            <img id="pl-btns" src="./spotify-icons-imgs-main/spotify-icons-imgs-main/Icons/play.png" alt="Play">
+                            <img src="./spotify-icons-imgs-main/spotify-icons-imgs-main/Icons/heart.png" alt="Like-Playlist">
+                            <img src="./spotify-icons-imgs-main/spotify-icons-imgs-main/Icons/three-dot.png" alt="More-Options">
+                        </div>
+                    </div>
+                    <div class="top-third">
+                        <div class="bor"></div>
+                        <div class="table-heads">
+                            <div class="heads-text">
+                                #  Title
+                            </div>
+                            <div class="heads-text">
+                                ALBUM
+                            </div>
+                            <div class="heads-text">
+                                DATE ADDED
+                            </div>
+                            <div class="heads-text">
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="table-wrapper">
+                        <table class="custom-table">
+                          <tr>
+                            <td>
+                                <p>1</p>
+                                <img src="./spotify-icons-imgs-main/spotify-icons-imgs-main/Icons/imgs/Rectangle 9.png" alt="SongImage">
+                                <div class="songdetails">
+                                    <div class="songname">We're Good</div>
+                                    <div class="author">Dua Lipa</div>
+                                </div>
+                            </td>
+                            <td>Future Nostalgia (The Moonlight Edition)</td>
+                            <td>04-07-2023</td>
+                            <td>
+                                <div class="moreMenu">
+                                    <img src="./spotify-icons-imgs-main/spotify-icons-imgs-main/Icons/heart.png" alt="LikeSong">
+                                    <p>2:45</p>
+                                    <img src="./spotify-icons-imgs-main/spotify-icons-imgs-main/Icons/three-dot.png" alt="More-Options">
+                                </div>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>
+                                <p>2</p>
+                                <img src="./spotify-icons-imgs-main/spotify-icons-imgs-main/Icons/list img.png" alt="SongImage">
+                                <div class="songdetails">
+                                    <div class="songname">We're Good</div>
+                                    <div class="author">Dua Lipa</div>
+                                </div>
+                            </td>
+                            <td>Future Nostalgia (The Moonlight Edition)</td>
+                            <td>04-07-2023</td>
+                            <td>
+                                <div class="moreMenu">
+                                    <img src="./spotify-icons-imgs-main/spotify-icons-imgs-main/Icons/heart.png" alt="LikeSong">
+                                    <p>2:45</p>
+                                    <img src="./spotify-icons-imgs-main/spotify-icons-imgs-main/Icons/three-dot.png" alt="More-Options">
+                                </div>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>
+                                <p>1</p>
+                                <img src="./spotify-icons-imgs-main/spotify-icons-imgs-main/Icons/list img.png" alt="SongImage">
+                                <div class="songdetails">
+                                    <div class="songname">We're Good</div>
+                                    <div class="author">Dua Lipa</div>
+                                </div>
+                            </td>
+                            <td>Future Nostalgia (The Moonlight Edition)</td>
+                            <td>04-07-2023</td>
+                            <td>
+                                <div class="moreMenu">
+                                    <img src="./spotify-icons-imgs-main/spotify-icons-imgs-main/Icons/heart.png" alt="LikeSong">
+                                    <p>2:45</p>
+                                    <img src="./spotify-icons-imgs-main/spotify-icons-imgs-main/Icons/three-dot.png" alt="More-Options">
+                                </div>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>
+                                <p>1</p>
+                                <img src="./spotify-icons-imgs-main/spotify-icons-imgs-main/Icons/list img.png" alt="SongImage">
+                                <div class="songdetails">
+                                    <div class="songname">We're Good</div>
+                                    <div class="author">Dua Lipa</div>
+                                </div>
+                            </td>
+                            <td>Future Nostalgia (The Moonlight Edition)</td>
+                            <td>04-07-2023</td>
+                            <td>
+                                <div class="moreMenu">
+                                    <img src="./spotify-icons-imgs-main/spotify-icons-imgs-main/Icons/heart.png" alt="LikeSong">
+                                    <p>2:45</p>
+                                    <img src="./spotify-icons-imgs-main/spotify-icons-imgs-main/Icons/three-dot.png" alt="More-Options">
+                                </div>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>
+                                <p>1</p>
+                                <img src="./spotify-icons-imgs-main/spotify-icons-imgs-main/Icons/list img.png" alt="SongImage">
+                                <div class="songdetails">
+                                    <div class="songname">We're Good</div>
+                                    <div class="author">Dua Lipa</div>
+                                </div>
+                            </td>
+                            <td>Future Nostalgia (The Moonlight Edition)</td>
+                            <td>04-07-2023</td>
+                            <td>
+                                <div class="moreMenu">
+                                    <img src="./spotify-icons-imgs-main/spotify-icons-imgs-main/Icons/heart.png" alt="LikeSong">
+                                    <p>2:45</p>
+                                    <img src="./spotify-icons-imgs-main/spotify-icons-imgs-main/Icons/three-dot.png" alt="More-Options">
+                                </div>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>
+                                <p>1</p>
+                                <img src="./spotify-icons-imgs-main/spotify-icons-imgs-main/Icons/list img.png" alt="SongImage">
+                                <div class="songdetails">
+                                    <div class="songname">We're Good</div>
+                                    <div class="author">Dua Lipa</div>
+                                </div>
+                            </td>
+                            <td>Future Nostalgia (The Moonlight Edition)</td>
+                            <td>04-07-2023</td>
+                            <td>
+                                <div class="moreMenu">
+                                    <img src="./spotify-icons-imgs-main/spotify-icons-imgs-main/Icons/heart.png" alt="LikeSong">
+                                    <p>2:45</p>
+                                    <img src="./spotify-icons-imgs-main/spotify-icons-imgs-main/Icons/three-dot.png" alt="More-Options">
+                                </div>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>
+                                <p>1</p>
+                                <img src="./spotify-icons-imgs-main/spotify-icons-imgs-main/Icons/list img.png" alt="SongImage">
+                                <div class="songdetails">
+                                    <div class="songname">We're Good</div>
+                                    <div class="author">Dua Lipa</div>
+                                </div>
+                            </td>
+                            <td>Future Nostalgia (The Moonlight Edition)</td>
+                            <td>04-07-2023</td>
+                            <td>
+                                <div class="moreMenu">
+                                    <img src="./spotify-icons-imgs-main/spotify-icons-imgs-main/Icons/heart.png" alt="LikeSong">
+                                    <p>2:45</p>
+                                    <img src="./spotify-icons-imgs-main/spotify-icons-imgs-main/Icons/three-dot.png" alt="More-Options">
+                                </div>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>
+                                <p>1</p>
+                                <img src="./spotify-icons-imgs-main/spotify-icons-imgs-main/Icons/list img.png" alt="SongImage">
+                                <div class="songdetails">
+                                    <div class="songname">We're Good</div>
+                                    <div class="author">Dua Lipa</div>
+                                </div>
+                            </td>
+                            <td>Future Nostalgia (The Moonlight Edition)</td>
+                            <td>04-07-2023</td>
+                            <td>
+                                <div class="moreMenu">
+                                    <img src="./spotify-icons-imgs-main/spotify-icons-imgs-main/Icons/heart.png" alt="LikeSong">
+                                    <p>2:45</p>
+                                    <img src="./spotify-icons-imgs-main/spotify-icons-imgs-main/Icons/three-dot.png" alt="More-Options">
+                                </div>
+                            </td>
+                          </tr>
+                          
+                          <!-- Add more rows as needed -->
+                        </table>
+                      </div>
+                      
+                </div>
+                <div class="foot-playlist">
+                    <div class="player-playlist">
+                        <div class="playerleft-playlist">
+                            <img src="./spotify-icons-imgs-main/spotify-icons-imgs-main/Icons/imgs/Rectangle 9.png"
+                                alt="Played Song">
+                            <div class="playedtext-playlist">
+                                <div class="textonly-playlist">
+                                    <p>Dreaming On</p>
+                                    <p id="singer">NEFFEX</p>
+                                </div>
+                                <img src="./spotify-icons-imgs-main/spotify-icons-imgs-main/Icons/heart.png"
+                                    alt="Liked">
+                                <img src="./spotify-icons-imgs-main/spotify-icons-imgs-main/Icons/pip.png" alt="Picture-in-Picture">
+                            </div>
+                        </div>
+                        <div class="playermid-playlist">
+                            <div class="midup-playlist">
+                                <img src="./spotify-icons-imgs-main/spotify-icons-imgs-main/Icons/shuffle.png"
+                                    alt="shuffle">
+                                <img src="./spotify-icons-imgs-main/spotify-icons-imgs-main/Icons/previous.png"
+                                    alt="previous">
+                                <img src="./spotify-icons-imgs-main/spotify-icons-imgs-main/Icons/gridicons_play.png"
+                                    alt="play">
+                                <img src="./spotify-icons-imgs-main/spotify-icons-imgs-main/Icons/next.png"
+                                    alt="next">
+                                <img src="./spotify-icons-imgs-main/spotify-icons-imgs-main/Icons/loop.png" alt="loop">
+                            </div>
+                            <div class="middown-playlist">
+                                <p>2:11</p>
+                                <input type="range" id="musicid" name="music" min="0" max="100" value="80">
+                                <p>2:42</p>
+                            </div>
+                        </div>
+                        <div class="playerright-playlist">
+                            <img class="rytmic" src="./spotify-icons-imgs-main/spotify-icons-imgs-main/Icons/microphone.png"
+                                alt="microphone">
+                            <img class="rytmic" src="./spotify-icons-imgs-main/spotify-icons-imgs-main/Icons/query-queue.png"
+                                alt="query-queue">
+                            <img class="rytmic" src="./spotify-icons-imgs-main/spotify-icons-imgs-main/Icons/carbon_laptop.png"
+                                alt="carbon_laptop">
+                            <img class="rytmic" src="./spotify-icons-imgs-main/spotify-icons-imgs-main/Icons/speaker-white.png"
+                                alt="speaker-white">
+                            <input type="range" id="volumid" name="volume" min="0" max="100" value="80">
+                        </div>
+                    </div>
+                </div>
+    </main>
+
+</body>
+
+</html>

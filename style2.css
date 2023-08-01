@@ -1,0 +1,357 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,300&family=Delicious+Handrawn&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+
+    color: white;
+    font-family: DM sans;
+}
+
+.top-one {
+    background: linear-gradient(180deg, #90AEA7 0%, #000 120%);
+    height: 40%;
+    display: flex;
+    padding: 1rem;
+    display: flex;
+    align-items: flex-end;
+    gap: 0.7rem;
+
+}
+#album-playlist>p{
+    color: #B3B3B3;
+font-size: 0.75rem;
+
+font-weight: 700;
+line-height: 1rem; /* 133.333% */
+letter-spacing: 0.075rem;
+text-transform: uppercase;
+}
+#albumart-playlist{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    top: 1;
+    height: 30%;
+}
+.mainarea-playlist {
+    background-color: rgb(21, 21, 21);
+    flex: 0.82;
+    background-color: rgb(21, 21, 21);
+    height: 100%;
+}
+
+.foot-playlist {
+
+    position: fixed !important;
+    bottom: 0;
+    width: 100%;
+    height: 15vh;
+    background-color: rgb(30, 215, 96);
+
+}
+
+.playerleft-playlist {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 14%;
+
+}
+
+.playedtext-playlist {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#singer-playlist {
+    color: #FFF;
+    font-family: DM Sans;
+    letter-spacing: -0.02625rem;
+}
+
+.midup-playlist {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 20rem;
+}
+
+.playermid-playlist {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.middown-playlist {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 20rem;
+
+}
+
+.middown-playlist>img {
+    height: 5px;
+    width: 22.125rem;
+}
+
+
+.playerright-playlist {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.player-playlist {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(24, 24, 24);
+}
+
+#foottext-playlist {
+    color: #000;
+    font-family: DM Sans;
+    font-size: 1.0625rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: right;
+}
+
+.genre-foot {
+    display: flex;
+    align-items: center;
+    gap: 0.9375rem;
+}
+
+.genre-short-text {
+    color: #FFF;
+    font-size: 0.9375rem;
+    opacity: 0.699999988079071;
+}
+
+.genre-text {
+    /* padding-top: 10.3125rem; */
+    letter-spacing: 0.090rem;
+
+}
+
+.top-second {
+    padding: 1rem;
+}
+
+.btns {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 8.6rem;
+}
+
+.top-third {
+    position: relative;
+}
+
+.bor {
+    border-bottom: 1px solid white;
+    opacity: 0.10000000149011612;
+
+
+}
+
+.table-heads {
+    display: flex;
+    justify-content: space-between;
+    margin-top: -10px;
+}
+
+.heads-text {
+    color: #FFF;
+    font-size: 0.75rem;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.0825rem;
+    opacity: 0.699999988079071;
+}
+
+/* Table Wrapper */
+.table-wrapper {
+    width: 100%;
+    overflow-x: auto;
+    /* Enable horizontal scrolling for small screens if needed */
+    overflow-y: scroll;
+    height: 47%;
+}
+.table-wrapper::-webkit-scrollbar {
+    display: none;
+    /* for Chrome, Safari, and Opera */
+  }
+/* Table Styling */
+.custom-table {
+    width: 100%;
+    border-collapse: collapse;
+    /* Remove cell spacing */
+}
+
+.custom-table th,
+.custom-table td {
+    padding: 8px 12px;
+}
+
+.custom-table th {
+    /* background-color: #f2f2f2; */
+    font-weight: bold;
+    text-align: left;
+}
+
+.custom-table tr {
+    background-color: transparent;
+}
+
+.custom-table tr:hover {
+    border-radius: 0.3125rem;
+    background: #ffffff1c;
+
+}
+.custom-table tr td{
+    
+    text-align: center;
+}
+
+.custom-table tr :first-child{
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    
+}
+.moreMenu{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+
+/* Large screens */
+@media (min-width: 1200px) {
+    
+}
+
+/* Medium screens */
+@media (min-width: 768px) and (max-width: 1199px) {
+    #album-playlist{
+        gap:0.7rem;
+    } 
+}
+
+/* Small screens */
+@media (min-width: 592px) and (max-width: 767px) {
+    .midup, .middown{
+        width: 12rem;
+    }
+    .rytmic:nth-child(1){
+        display: none;
+    }
+    .rytmic:nth-child(2){
+        display: none;
+    }
+    .rytmic:nth-child(3){
+        display: none;
+    }
+    .rytmic:nth-child(5){
+        display: none;
+    }
+    .rytmic:nth-child(6){
+        display: none;
+    }
+    .textonly{
+        display: none;
+    }
+    #volumid{
+        display: none;
+    }
+    .custom-table tr td:nth-child(3){
+        display: none !important;
+    }
+    .top-one{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .genre-img>img{
+        height: 105px;
+        width: 105px;
+    }
+    .genre-text{
+        font-size: 9px;
+    }
+    .table-heads div:nth-child(3){
+        display: none !important;
+    }
+    td{
+        font-size: 12px;
+    }
+    
+}
+@media (min-width: 320px) and (max-width:591px) {
+    #pl-btns{
+        width: 18px;
+        height: 20px;
+    }
+    .btns{
+        width: 4.6rem;
+    }
+    .genre-short-text{
+        display: none;
+    }
+    .midup-playlist, .middown-playlist{
+        width: 12rem;
+    }
+    .rytmic:nth-child(1){
+        display: none;
+    }
+    .rytmic:nth-child(2){
+        display: none;
+    }
+    .rytmic:nth-child(3){
+        display: none;
+    }
+    .rytmic:nth-child(5){
+        display: none;
+    }
+    .rytmic:nth-child(6){
+        display: none;
+    }
+    .textonly-playlist{
+        display: none;
+    }
+    .moreMenu{
+        flex-direction: column;
+    }
+    #volumid{
+        display: none;
+    }
+    .custom-table tr td:nth-child(3){
+        display: none !important;
+    }
+    .top-one{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .genre-img>img{
+        height: 105px;
+        width: 105px;
+    }
+    .genre-text{
+        font-size: 9px;
+    }
+    .table-heads div:nth-child(3){
+        display: none !important;
+    }
+    td{
+        font-size: 12px;
+    }
+}
