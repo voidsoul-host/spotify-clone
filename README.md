@@ -26,7 +26,7 @@ This project is a responsive clone of Spotify's web application built using only
 To run the project locally, simply clone the repository and open the `index.html` file in your preferred web browser.
 
 ```bash
-git clone https://github.com/yourusername/spotify-clone.git
+git clone https://github.com/voidsoul-host/spotify-clone.git
 cd spotify-clone
 ```
 
